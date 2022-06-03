@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/root/styles/styles.css">
+    <title>Booking</title>
+</head>
+<body id="body__booking">
+
+    <!--Div for first page bookingn-->
+    <div class="first__page__booking">
+        <!--Container header-->
+        <header class="header">    
+            <div class="header__logo">
+                <a href="../index.html">
+                    <img src="../assets/logos/white-logo.png" alt="logo">
+                </a>
+            </div>
+            <!--Container MENU Nav-->
+                <ul class="header__list">
+                    <li class="header__item"><a href="../index.html">Home</a></li>
+                    <li class="header__item"><a href="../pages/accommodation.html">Accommodation</a></li>
+                    <li class="header__item"><a href="../pages/experience.html">Experience</a></li>
+                    <li class="header__item"><a href="../pages/gallery.html">Gallery</a></li>
+                    <li class="header__item"><a href="../pages/booking.html">Booking</a></li>
+                </ul>
+            <!--Header Book-->
+            <div class="header__booking">
+                <a href="../pages/booking.html">BOOK</a>
+            </div>
+        </header>
+    </div>
+
+    <main class="main__booking">
+        <div class="contact__booking">
+            <h2>Contact and Booking</h2>
+            <p>For any questions regarding the organisation of the stay, please visit the FAQ.</p>
+        </div>
+        <form class="form__booking">
+            <div class="names__form">
+                <div class="lastName">
+                    <label for="lastName"></label>
+                    <input type="text" name="lastName" id="lastName" placeholder="LAST NAME *" required>
+                </div>
+                <div class="firstName">
+                    <label for="firstName"></label>
+                    <input type="text" name="firstName" id="firstName" placeholder="FIRST NAME *" required>
+                </div>
+            </div>
+            <div class="email__form">
+                <label for="eMail"></label>
+                <input type="email" name="eMail" id="eMail" placeholder="E-MAIL *" required>
+            </div>
+            <div class="checks__form">
+                <div class="check">
+                    <label for="checkIn">Check in</label>
+                    <input type="date" name="checkIn" id="checkIn" required>
+                </div>
+                <div class="check">
+                    <label for="checkOut">Check out</label>
+                    <input type="date" name="checkOut" id="checkOut" required>
+                </div>
+            </div>
+            <div class="request">
+                <label for="request"></label>
+                <input type="text" name="request" id="request" placeholder="REQUEST *" required>
+            </div>
+            <div class="text__form">
+                <p>The information in this form allow Radama Fishing Camp services to respond to your request. In accordance with European data protection regulation 2016/679, you have rights of access, rectification, limitation and opposition to your data.</p>
+            </div>
+            <div class="buttom__form">
+                <input type="submit" value="SUBMIT">
+            </div>
+        </form>
+    </main>
+    <footer class="footer">
+        <span>Follow us</span>
+        <a href="https://www.instagram.com/" target="_blank"><img src="/root/assets/logos/Insta.png" alt="Instagram"></a>
+        <a href="https://www.facebook.com/" target="_blank"><img src="/root/assets/logos/face.png" alt="Facebook"></a>
+    </footer>
+</body>
+</html>
