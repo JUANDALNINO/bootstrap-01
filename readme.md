@@ -1,3 +1,1 @@
-# finalProject-WebDevelopment-CoderHouse
-With boostrap => For Coder Challenge
-
+# finalProject-WebDevelopment-CoderHouse - With boostrap => For Coder Challenge
